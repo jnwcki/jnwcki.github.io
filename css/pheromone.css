@@ -1713,7 +1713,7 @@ li .shop-cart {
     -moz-transition: all .0s ease-in-out !important;
     transition: all .0s ease-in-out !important; } }
 @media (max-width: 1200px) {
-  #about, #about-slider, #about-slider2 {
+  #about, #about-slider, #about-slider2, #portfolio, #section3 {
     text-align: center; }
 
   #carousel-light, #carousel-light2, #carousel-light3, #carousel-dark, #carousel-transparent {
@@ -1722,7 +1722,10 @@ li .shop-cart {
 @media screen and (max-width: 800px) {
   .wow {
     animation-name: none !important;
-    visibility: visible !important; } }
+    visibility: visible !important; }
+  .section2-img {
+    padding-top: 2em;}
+    }
 .demo img {
   margin-top: 30px;
   margin-bottom: 20px; }
